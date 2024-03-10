@@ -564,7 +564,7 @@ export default function Story() {
         <section className='section-2'>
 
           <div className='section-2-head'>
-            <h1>Read stories on {search.toLowerCase()}</h1>
+            <h1>{search ? `Read stories on ${search.toLowerCase()}` : `Select a Category`}</h1>
 
             <div className='looking'>
               <div className='choose'>
